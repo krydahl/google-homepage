@@ -1,0 +1,176 @@
+/* General Formatting */
+
+a {
+	font-family: arial,sans-serif;
+	font-size: 13px;
+	text-decoration: none;
+	color: #222;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+/* Formatting for header and top menu items */
+
+ul {
+    float: right;
+    padding: 0;
+    list-style-type: none;
+	margin: 15px 30px 0 0;
+}
+
+li {
+	display: inline;
+	margin-left: 17px;
+}
+
+#gmail {
+	right: 3px;
+}
+.app-square {
+	display: inline-block;
+	padding: 0;
+	margin: 1px;
+	border: 0px;
+	width: 4px;
+	height: 4px;
+	background: #666;
+}
+
+#app-menu {
+	line-height: 0.5px;
+	vertical-align: middle;
+	display: inline-block;
+	font-size: 0px;
+	padding: 0 0px 1px 0px;
+}
+/* Interesting syntax that makes every square in the app menu respond to
+ * hovering over just one of them */
+
+#app-menu:hover .app-square {
+	background: #222;
+}
+
+#sign-in-button {
+	background-color: #4285f4;
+	display: inline-block;
+    line-height: 27px;
+    padding: 1px 13px;
+	border-radius: 2px;
+	color: #fff;
+}
+
+#sign-in {
+	color: #fff;
+	font-weight: bold;
+}
+
+/* Main page formatting */
+
+main {
+	background-color: #fff;
+}
+
+#search {
+	position: relative;
+	display: block;
+	top: 196px;
+	height: 150px;
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#logo {
+	position: relative;
+	display: block;
+	height: 92px;
+	width: 274px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+img {
+	height: 100%;
+	width: 100%;
+}
+
+#country {
+    color: #4285f4;
+    font: 16px/16px roboto-regular, arial, sans-serif;
+	position: relative;
+	top: -17px;
+	left: 217px;
+}
+
+form {
+	text-align: center;
+	margin-top: 32px;
+}
+input[type="text"] {
+	height: 36px;
+    width: 584px;
+	margin-left: 15px;
+	margin-bottom: 21px;
+    border: 1px solid #d6d6c2;
+	font-size: 16px;
+	text-indent: 9px;
+}
+input[type="submit"] {
+	height: 36px;
+	background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 2px;
+    color: #757575;
+    font-weight: bold;
+    margin: 11px 2px;
+    padding: 0 16px;
+}
+
+#mic {
+	position: relative;
+	top: -109px;
+	left: 573px;
+	width:14px;
+	height: 20px;
+}
+
+.search-input:hover {
+	border: 1px solid #c6c6c6;
+}
+
+.search-input:focus {
+	border: 1px solid #5d9dd5;
+	outline: 0px solid #3485cb;
+}
+/* Footer formatting */
+
+footer {
+	background-color: #f2f2f2;
+	border-top: 1px solid #e4e4e4;
+	width: 100%;
+    height: 40px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+	display: table-cell;
+}
+
+.footer-item {
+	margin-left: 14px;
+	margin-right: 13px;
+	color: #777;
+}
+
+#footer-left, #footer-right {
+		margin-top: 11px;
+}
+
+#footer-right {
+	float: right;
+	margin-right:16px;
+}
+
+#footer-left {
+	float: left;
+	margin-left:16px
+}
